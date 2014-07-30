@@ -1,0 +1,219 @@
+////////////////////
+//  COLORS
+////////////////////
+
+/*#d1d1d1: #d1d1d1;*/
+
+.step_container
+{
+  width:695px;
+  height:200px;
+  margin: 0 auto;
+}
+
+.step
+{
+  width:230px;
+  height:200px;
+}
+
+#step1
+{
+  // background: black;
+}
+
+#step2
+{
+  // background: #d1d1d1;
+}
+
+#step3
+{
+  // background: blue;
+}
+
+////////////////////
+// RIGHT
+////////////////////
+
+.float_right
+{
+    float:right;
+}
+
+.align_text_right
+{
+  text-align:right;
+}
+
+////////////////////
+// LEFT
+////////////////////
+
+.float_left
+{
+  float:left;
+}
+
+.align_text_left
+{
+  text-align:left;
+}
+
+////////////////////
+//  WIDTH
+////////////////////
+
+.width10
+{
+  width:10px;
+}
+
+.width20
+{
+  width:20px;
+}
+
+.widtht30
+{
+  width:30px;
+}
+
+.width40
+{
+  width:40px;
+}
+
+.width50
+{
+  width:50px;
+}
+
+
+////////////////////
+//  HEIGHTS
+////////////////////
+.height10
+{
+  height:10px;
+}
+
+.height20
+{
+  height:40px;
+}
+
+.height30
+{
+  height:30px;
+}
+
+.height40
+{
+  height:40px;
+}
+
+.height50
+{
+  height:50px;
+}
+
+.line_break
+{
+  height:50px;
+	border-bottom: 1px solid #d1d1d1;
+}
+
+.title_line
+{
+  border-bottom:1px solid #d1d1d1;
+}
+
+.center
+{
+  text-align:center;
+  margin: 0 auto;
+}
+
+.underline
+{
+  text-decoration: underline;
+}
+
+#bar
+{
+  width: 100%;
+  height: 80px;
+}
+
+.red_background
+{
+  background: red;
+}
+
+.blue_background
+{
+  background: blue;
+}
+
+.gray_background
+{
+  background: #d1d1d1;
+}
+
+/////////////////
+//  TEXT
+/////////////////
+
+.bigger_text
+{
+  font-size:16px
+}
+
+.bigger_text_24px
+{
+  font-size:24px
+}
+
+.bigger_text_20px
+{
+  font-size:20px
+}
+
+
+.border
+{
+  border: 1px solid black;
+}
+.black
+{
+  background:black;
+  color:white;
+}
+
+.red
+{
+  background:#F2575F;
+  color: white;
+}
+
+.green {
+  background:green;
+  color: white;
+}
+
+.blue {
+  background: #3071a9;
+  color: white;
+}
+
+.highlight_yellow {
+  background-color: #F7EB9E;
+  display:inline;
+}
+
+.highlight_blue {
+  background-color: #2113A8;
+  display:inline;
+  color:white;
+}
