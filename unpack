@@ -1,0 +1,11 @@
+#!/bin/bash
+
+mv basic.css.scc ../
+mv basic.css ../
+
+mv bootstrap/dist/js/bootstrap.js ../../javascripts/
+mv bootstrap/dist/css/bootstrap.css ../
+
+
+mv Font-Awesome/css/font-awesome.css ../
+mv Font-Awesome/fonts ../
