@@ -1,11 +1,16 @@
 #!/bin/bash
 
+#Animate.css
+mv animate.css/animate.css ../
+
+#Basic
 mv basic.css.scc ../
 mv basic.css ../
 
+#Bootstrap
 mv bootstrap/dist/js/bootstrap.js ../../javascripts/
 mv bootstrap/dist/css/bootstrap.css ../
 
-
+#Font-awesome
 mv Font-Awesome/css/font-awesome.css ../
 mv Font-Awesome/fonts ../
