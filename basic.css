@@ -842,3 +842,32 @@ box-shadow: 0 1px 0 #fff;
 .right_margin_50 {
   margin-right: 50px;
 }
+
+
+.link {
+      text-decoration: none;
+      padding: 5px;
+
+    }
+
+    .link:hover {
+      background: #F5F5F5;
+      color: black;
+      padding: 5px;
+      border-radius: 10px;
+    }
+
+
+    .first_gap {
+      margin-right:15px;
+
+    }
+    .gap {
+      margin-left:15px;
+      margin-right:15px;
+
+    }
+
+    .last_gap {
+      margin-left: 15px;
+    }
