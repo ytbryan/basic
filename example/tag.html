@@ -1,0 +1,96 @@
+<style media="screen">
+  .tag {
+    padding: 2px;
+    display:inline-block;
+  }
+
+  .tag:hover {
+    background: red;
+    color: black;
+  }
+
+  .simple {
+    border: 1px solid black;
+    border-radius: 4px;
+  }
+
+  .arrow-left {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right:20px solid blue;
+    background: black;
+    display:inline-block;
+}
+
+.star {
+  color: red;
+}
+
+/*colours*/
+.green {
+  color: green;
+}
+
+.blue {
+  color: #0085c3;
+}
+
+.white {
+  color:white;
+}
+
+.blue-background {
+  background: #0085c3;
+}
+
+
+.red {
+  color: red;
+}
+
+.smaller {
+  width: 15px;
+  height: 15px;
+}
+
+</style>
+
+<div class="">
+  <div class="tag simple green">new</div>
+
+  <div class="smaller">
+    <svg viewBox="0 0 512 512"
+         xmlns="http://www.w3.org/2000/svg">
+         <path d="M310.627 438.627l160-160c12.497-12.496
+                  12.497-32.758 0-45.255l-160-160c-12.497-12.496-32.758-12.496-45.255 0-12.497 12.497-12.497 32.758 0 45.255L370.745 224H64c-17.673 0-32 14.327-32 32s14.327 32 32 32h306.745L265.372 393.373C259.124 399.62 256 407.81 256 416s3.124 16.38 9.372
+                  22.627c12.497 12.497 32.758 12.497 45.255 0z">
+         </path>
+
+         <svg viewBox="0 0 512 512"
+         xmlns="http://www.w3.org/2000/svg">
+         <path d="M201.373 73.373l-160 160c-12.497
+         12.496-12.497 32.758 0 45.254l160 160c12.497 12.496 32.758 12.496 45.255 0 12.498-12.496 12.498-32.758 0-45.254L141.254 288H448c17.673 0 32-14.326 32-32 0-17.673-14.327-32-32-32H141.254l105.373-105.373C252.875 112.38 256 104.19 256 96s-3.124-16.38-9.372-22.627c-12.498-12.497-32.758-12.497-45.255 0z"></path>
+         </svg>
+    </svg>
+  </div>
+</div>
+
+<div class="">
+  <div class="tag simple red">sales</div>
+
+  <div class="tag simple">
+    marketing
+  </div>
+
+  <div class="tag simple blue">
+    technology<span class="star">*</span>
+  </div>
+
+  <div class="tag simple blue-background white">
+    airport
+  </div>
+
+
+</div>
