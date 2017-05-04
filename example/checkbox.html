@@ -1,12 +1,32 @@
 <style media="screen">
 
+  .rounded {
+    /*assuming the width is 20*/
+    border-radius: 11px;
+  }
+
+  .squared {
+    /*assuming the width is 20*/
+    border-radius: 5px;
+  }
+
+
+  .white-checkbox {
+    width: 19px;
+    height: 19px;
+    line-height: 20px;
+    color: green;
+    background: white;
+    text-align: center;
+    border: 1px solid green;
+  }
+
   .checkbox {
     width: 20px;
     height: 20px;
     line-height: 20px;
     color: white;
     background: green;
-    border-radius: 11px;
     text-align: center;
   }
 
@@ -31,12 +51,20 @@
     margin-left: 5px;
     margin-right: 5px;
   }
+
+  .margin-15 {
+    margin-top: -15px;
+  }
 </style>
 
 
 <h3>Reasons to be happy.</h3>
+<p class="margin-15">
+  Examples of checkboxes that appear like checkbox.
+</p>
+
 <div class="">
-  <div class="checkbox spaceout fix-div add-padding">
+  <div class="checkbox rounded spaceout fix-div add-padding">
     &#x2714;
   </div>
   <span class="horizontal-spaceout">
@@ -45,7 +73,7 @@
 </div>
 
 <div class="">
-  <div class="checkbox spaceout fix-div add-padding">
+  <div class="white-checkbox rounded spaceout fix-div add-padding">
     &#x2714;
   </div>
   <span class="horizontal-spaceout">
@@ -53,19 +81,17 @@
   </span>
 </div>
 
-
 <div class="">
-  <div class="checkbox spaceout fix-div add-padding">
+  <div class="checkbox rounded spaceout fix-div add-padding">
     &#x2714;
   </div>
   <span class="horizontal-spaceout">
-    Being happy makes you a lot more enthusiastic and productive
+    By being happy you make the world a better place.
   </span>
 </div>
 
-
 <div class="">
-  <div class="checkbox spaceout fix-div add-padding">
+  <div class="checkbox rounded spaceout fix-div add-padding">
     &#x2714;
   </div>
   <span class="horizontal-spaceout">
@@ -75,7 +101,7 @@
 
 
 <div class="">
-  <div class="checkbox spaceout fix-div add-padding">
+  <div class="checkbox rounded spaceout fix-div add-padding">
     &#x2714;
   </div>
   <span class="horizontal-spaceout">
@@ -85,7 +111,7 @@
 
 
 <div class="">
-  <div class="checkbox spaceout fix-div add-padding">
+  <div class="checkbox squared spaceout fix-div add-padding">
     &#x2714;
   </div>
   <span class="horizontal-spaceout">
@@ -95,7 +121,7 @@
 
 
 <div class="">
-  <div class="checkbox spaceout fix-div add-padding">
+  <div class="checkbox squared spaceout fix-div add-padding">
     &#x2714;
   </div>
   <span class="horizontal-spaceout">
